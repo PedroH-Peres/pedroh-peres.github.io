@@ -8,8 +8,8 @@
   --fg: #e8e6e1;
   --fg-dim: #8a8780;
   --fg-faint: #4a4844;
-  --accent: #ff5a1f;
-  --accent-dim: #b03d12;
+  --accent: #5b8ef5;
+  --accent-dim: #2e5ab8;
   --warn: #ffb84d;
   --ok: #6dd58c;
   --info: #6da6ff;
@@ -126,16 +126,16 @@ a {
   height: 8px;
   background: var(--accent);
   border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(255, 90, 31, 0.18);
+  box-shadow: 0 0 0 3px rgba(91, 142, 245, 0.18);
   animation: pulse 2.4s ease-in-out infinite;
 }
 @keyframes pulse {
   0%,
   100% {
-    box-shadow: 0 0 0 3px rgba(255, 90, 31, 0.18);
+    box-shadow: 0 0 0 3px rgba(91, 142, 245, 0.18);
   }
   50% {
-    box-shadow: 0 0 0 6px rgba(255, 90, 31, 0.05);
+    box-shadow: 0 0 0 6px rgba(91, 142, 245, 0.05);
   }
 }
 .topbar__nav {
@@ -224,8 +224,8 @@ section {
   color: #0a0a0a;
 }
 .btn--primary:hover {
-  background: #ff7a4a;
-  border-color: #ff7a4a;
+  background: #7aa8f8;
+  border-color: #7aa8f8;
   color: #0a0a0a;
 }
 .btn__arrow {

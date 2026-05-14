@@ -147,7 +147,7 @@ function Footer({ lang }) {
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/ {
   "language": "pt",
-  "accent": "#ff5a1f",
+  "accent": "#5b8ef5",
   "tone": "hybrid",
   "showGrid": false
 } /*EDITMODE-END*/;
@@ -212,7 +212,7 @@ function App() {
           <TweakColor
             label="Cor de destaque"
             value={tweaks.accent}
-            options={['#ff5a1f', '#6da6ff', '#6dd58c', '#e8e6e1']}
+            options={['#5b8ef5', '#ff5a1f', '#6dd58c', '#e8e6e1']}
             onChange={(v) => setTweak('accent', v)}
           />
           <TweakToggle

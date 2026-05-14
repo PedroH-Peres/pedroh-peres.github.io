@@ -113,7 +113,7 @@ function HumanoidDiagram() {
         y1={20}
         x2={cx}
         y2={200}
-        stroke="rgba(255,90,31,0.18)"
+        stroke="rgba(91,142,245,0.18)"
         strokeWidth="0.5"
         strokeDasharray="2 3"
       />
