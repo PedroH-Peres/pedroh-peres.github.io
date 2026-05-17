@@ -178,33 +178,14 @@ const CONTENT_2 = {
       items: [
         {
           id: 'B-01',
-          slug: 'NIGHT_PATROL',
-          title: 'Night Patrol',
-          genre: 'Stealth · Top-down',
+          slug: 'IDLE_GUILD',
+          title: 'Idle Guild Master',
+          genre: 'Idle · Gerenciamento',
           engine: 'Godot',
           desc:
-            'Curto jogo de stealth onde você controla um drone de patrulha noturna. Detecção via cones de visão proceduralmente gerados.',
-          status: 'PROTO',
-        },
-        {
-          id: 'B-02',
-          slug: 'COG_CITY',
-          title: 'Cog City',
-          genre: 'Puzzle · Mecânico',
-          engine: 'Unity',
-          desc:
-            'Quebra-cabeças com engrenagens conectadas. Você projeta sistemas mecânicos para mover uma cidade flutuante.',
-          status: 'WIP',
-        },
-        {
-          id: 'B-03',
-          slug: 'ADAPT_QUEST',
-          title: 'Adapt Quest',
-          genre: 'RPG · LLM-driven',
-          engine: 'Godot · Python',
-          desc:
-            'Experimento de RPG narrativo onde um LLM identifica fraquezas cognitivas do jogador e adapta os desafios. Vem da minha IC.',
-          status: 'RESEARCH',
+            'Gerencie uma guilda de aventureiros em um idle game. Recrute heróis, complete missões e expanda sua guilda.',
+          status: 'PUBLISHED',
+          href: 'https://staraureo.itch.io/idle-guild-master',
         },
       ],
     },
@@ -244,6 +225,17 @@ const CONTENT_2 = {
           desc:
             'Narrative RPG experiment where an LLM identifies player cognitive weaknesses and adapts the challenges. Born from my research.',
           status: 'RESEARCH',
+        },
+        {
+          id: 'B-04',
+          slug: 'IDLE_GUILD',
+          title: 'Idle Guild Master',
+          genre: 'Idle · Management',
+          engine: 'Godot',
+          desc:
+            'Manage an adventurers guild in an idle game. Recruit heroes, complete quests, and expand your guild.',
+          status: 'PUBLISHED',
+          href: 'https://staraureo.itch.io/idle-guild-master',
         },
       ],
     },

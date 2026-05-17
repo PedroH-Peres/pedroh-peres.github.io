@@ -399,10 +399,17 @@ function Games({ lang }) {
               <div className="game__meta" style={{ marginTop: 4 }}>
                 <span>{g.genre}</span>
               </div>
-              <div className="game__cta">
-                <span>{t.cta}</span>
-                <span>▶</span>
-              </div>
+              {g.href ? (
+                <a className="game__cta" href={g.href} target="_blank" rel="noopener">
+                  <span>{t.cta}</span>
+                  <span>▶</span>
+                </a>
+              ) : (
+                <div className="game__cta">
+                  <span>{t.cta}</span>
+                  <span>▶</span>
+                </div>
+              )}
             </div>
           </article>
         ))}

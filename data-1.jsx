@@ -7,12 +7,12 @@ const CONTENT = {
     handle: 'PHBP',
     location: 'Uberlândia, MG · BR',
     timezone: 'GMT−3',
-    email: 'pedrohenriquebperes@gmail.com',
+    email: 'pedrohperescode@gmail.com',
     phone: '+55 (34) 98446-4712',
     links: {
       github: 'https://github.com/PedroH-Peres',
       linkedin: 'https://www.linkedin.com/in/pedrohbperes/',
-      itch: 'https://itch.io/',
+      itch: 'https://staraureo.itch.io/',
     },
   },
 
